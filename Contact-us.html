@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunbic University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Picture/favicon.ico">
+</head>
+<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    
+    <!-Navigation->
+    <section class="navigation">
+        <nav>
+            <a href="homepage.html"><img src="Picture/SUNBIC.png" alt="Sunbic"></a>
+            <div class="nav-link">
+                <ul>
+                    <li><a href="Facilities.html">Facilities</a></li>
+                    <li><a href="Contact-us.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    
+    <!-Filling->
+    <section class="filling">
+        <h1>Contact Us</h1>
+        <div class="contact-us-box">
+            <form>
+                <input type="text" class="input-field" placeholder="Name">
+                <input type="email" class="input-field" placeholder="E-Mail">
+                <input type="number" class="input-field" placeholder="Phone Number">
+                <input type="text" class="input-field" placeholder="Subject">
+                <textarea type="text" class="input-field message-field" placeholder="Message"></textarea>
+                <section class="selector">
+                    <h2><label for="OS">Your OS :</label></h2>
+                    <select name="OS">
+                        <option value="invalid">--- Choose your OS ---</option>
+                        <option value="android">Android</option>
+                        <option value="ios">IOS</option>
+                        <option value="windows">Windows</option>
+                        <option value="mac">MacOS</option>
+                        <option value="linux">Linux</option>
+                    </select>
+                </section>
+                <section class="selector">
+                    <h2>Input Screenshot if you want</h2>
+                    <input type="file" class="file-field">
+                </section>
+                <section class="selector">
+                    <input type="checkbox" id="terms-and-condition" class="">
+                    <label for="terms-and-condition">I agree to the <span class="t-and-c"><u>Terms</u></span> and <span class="t-and-c"><u>Conditions</u></span>.</label>
+                </section>
+                <button type="button" class="btn">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-Address and Social Medias->
+    <section class="footer">
+        <footer>
+            <img src="Picture/sunbic-logo.png">
+            <h1>163 Seoulsiripdae-ro, Dongdaemun-gu,<br>Seoul, South Korea</h1>
+            <div class="socmed-logo">
+                <ul>
+                    <li><a href="https://www.facebook.com/universitasbinanusantara/"><img src="Picture/fb-logo.png"></a></li>
+                    <li><a href="https://www.instagram.com/binusuniversityofficial/"><img src="Picture/ig-logo.png"></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCEKLSH0D6hGca4maPUyXr8g"><img src="Picture/yt-logo.png"></a></li>
+                </ul>
+            </div>
+            <h1>Phone +82 04-312-3456</h1>
+            <br><p>Copyright © SUNBIC University. All rights reserved</p>
+        </footer>
+    </section>
+</body>
+</html>
